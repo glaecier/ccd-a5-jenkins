@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Cloud CI/CD Lab - Version 1"
+    return "Cloud CI/CD Lab - Version 2"
 
 
 if __name__ == "__main__":
